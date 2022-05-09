@@ -1,0 +1,109 @@
+{
+  "main": {
+    "id": "814d2ef556ede169",
+    "type": "split",
+    "children": [
+      {
+        "id": "795bf6bace210ac4",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "Golang Language.md",
+            "mode": "source",
+            "source": false
+          }
+        }
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "491fae3912d3d914",
+    "type": "split",
+    "children": [
+      {
+        "id": "f3006b8655551792",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "2a3d8f03a5baabaa",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          },
+          {
+            "id": "8a69717328f9f58f",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "df196125482709fb",
+    "type": "split",
+    "children": [
+      {
+        "id": "d6b3898cb6abe0cf",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "7e55069ebd774036",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Golang Language.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "9b9368ec999c61fc",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Golang Language.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "active": "795bf6bace210ac4",
+  "lastOpenFiles": [
+    "Golang Language.md",
+    "Operators.md",
+    "Concurrency in Go.md",
+    "Functions.md"
+  ]
+}

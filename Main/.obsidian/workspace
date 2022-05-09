@@ -1,0 +1,188 @@
+{
+  "main": {
+    "id": "bf160fbc62b9af1c",
+    "type": "split",
+    "children": [
+      {
+        "id": "efb24d3a5e7fb3a6",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "Successful Typography.md",
+            "mode": "preview",
+            "source": false
+          }
+        }
+      },
+      {
+        "id": "3856cd2274eb77b1",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "Successful Typography.md",
+            "mode": "source",
+            "source": false
+          }
+        }
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "80a337bdaed3c89f",
+    "type": "split",
+    "children": [
+      {
+        "id": "98e119e536097068",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "7a35e5635830d09a",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          }
+        ]
+      },
+      {
+        "id": "901dcc3313d81703",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "85777c3d32b01ad5",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Successful Typography.md"
+              }
+            }
+          }
+        ]
+      },
+      {
+        "id": "14e5bdaa256240b9",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "1eb4456cd14ff2ec",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "tag:#design",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 288.00000190734863
+  },
+  "right": {
+    "id": "2a98fdc7fbefe9a1",
+    "type": "split",
+    "children": [
+      {
+        "id": "6e53c885c8eaeb5e",
+        "type": "tabs",
+        "dimension": 27.894736842105257,
+        "children": [
+          {
+            "id": "8a176644f0933a43",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Successful Typography.md",
+                "collapseAll": true,
+                "extraContext": true,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          }
+        ]
+      },
+      {
+        "id": "2f65afaf1d700e53",
+        "type": "tabs",
+        "dimension": 26.31578947368421,
+        "children": [
+          {
+            "id": "1e5c6a1ddae42c7e",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Successful Typography.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          }
+        ]
+      },
+      {
+        "id": "d483e1e2a6785a1e",
+        "type": "tabs",
+        "dimension": 24.736842105263158,
+        "children": [
+          {
+            "id": "38f7d347880df140",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "alphabetical",
+                "useHierarchy": false
+              }
+            }
+          }
+        ]
+      },
+      {
+        "id": "7df24e2515ea8055",
+        "type": "tabs",
+        "dimension": 21.052631578947366,
+        "children": [
+          {
+            "id": "4fe85b617303dcfe",
+            "type": "leaf",
+            "state": {
+              "type": "hackernews-view",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "active": "3856cd2274eb77b1",
+  "lastOpenFiles": [
+    "Successful Typography.md",
+    "Routers.md",
+    "Controllers.md",
+    "Resources/TEMPLATES/Typeface CSS Template.md",
+    "Resources/CSS/Typeface CSS Template.md",
+    "Resources/Images/Pasted image 20220307211421.png",
+    "Resources/Images/Pasted image 20220306132318.png",
+    "Pasted image 20220306132311.png",
+    "test.md"
+  ]
+}
