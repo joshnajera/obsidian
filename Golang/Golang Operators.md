@@ -1,3 +1,7 @@
+---
+language: go, golang
+tags: operators
+---
 # Arithmetic
 
 | Operator | Description    |
@@ -7,7 +11,6 @@
 | *        | multiplication |
 | /        | division       |
 | %        | modulo         |
-|          |                |
 
 # Binary
 | Operator | Description |
