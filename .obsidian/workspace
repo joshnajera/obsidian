@@ -1,0 +1,152 @@
+{
+  "main": {
+    "id": "8f97be7eaae864aa",
+    "type": "split",
+    "children": [
+      {
+        "id": "7c8805367e5cf623",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "React/Component.md",
+            "mode": "source",
+            "source": false
+          }
+        }
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "dd519d38c6fdf917",
+    "type": "split",
+    "children": [
+      {
+        "id": "51aa4982c4df4f26",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "5f899c0343ee91fb",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          },
+          {
+            "id": "f63904464555e2e4",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "2d4590114e36e695",
+            "type": "leaf",
+            "state": {
+              "type": "starred",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "04bbc0fa29b219c6",
+    "type": "split",
+    "children": [
+      {
+        "id": "90baf197cc842136",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "006240b42893fc73",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "React/Component.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "dde48543d7f6376a",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "React/Component.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "1fcb5d369bcb6a76",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "6fe31833400716a4",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "React/Component.md"
+              }
+            }
+          },
+          {
+            "id": "1bf3015a2ce4b956",
+            "type": "leaf",
+            "state": {
+              "type": "advanced-tables-toolbar",
+              "state": {}
+            }
+          }
+        ],
+        "currentTab": 4
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "active": "5f899c0343ee91fb",
+  "lastOpenFiles": [
+    "Golang/ALL Golang.md",
+    "React/Events.md",
+    "React/Props.md",
+    "React/Component.md",
+    "React/Conditional rendering.md",
+    "React/Repeating Components.md",
+    "React/Adding CSS.md",
+    "React/Relative Paths.md",
+    "React/React DOM.md",
+    "React/Getting Started.md"
+  ]
+}
