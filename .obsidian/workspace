@@ -4,12 +4,12 @@
     "type": "split",
     "children": [
       {
-        "id": "7c8805367e5cf623",
+        "id": "6eb16da792911dd8",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "React/Component.md",
+            "file": "SQL/Data Setup.md",
             "mode": "source",
             "source": false
           }
@@ -40,7 +40,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "tag:#minimum",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -77,7 +77,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "React/Component.md",
+                "file": "SQL/Data Setup.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -94,7 +94,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "React/Component.md",
+                "file": "SQL/Data Setup.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -117,7 +117,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "React/Component.md"
+                "file": "SQL/Data Setup.md"
               }
             }
           },
@@ -130,23 +130,23 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
     "width": 300
   },
-  "active": "5f899c0343ee91fb",
+  "active": "6eb16da792911dd8",
   "lastOpenFiles": [
-    "Golang/ALL Golang.md",
-    "React/Events.md",
-    "React/Props.md",
-    "React/Component.md",
-    "React/Conditional rendering.md",
-    "React/Repeating Components.md",
-    "React/Adding CSS.md",
-    "React/Relative Paths.md",
-    "React/React DOM.md",
-    "React/Getting Started.md"
+    "SQL/Triggers.md",
+    "SQL/Conditionals.md",
+    "SQL/Data Setup.md",
+    "SQL/Querying.md",
+    "SQL/Union.md",
+    "SQL/Filtering.md",
+    "SQL/Logical Operators.md",
+    "Main/Routers.md",
+    "Main/Web Framework Controllers.md",
+    "Main/Resources/TEMPLATES/Typeface CSS Template.md"
   ]
 }

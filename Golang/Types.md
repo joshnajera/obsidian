@@ -12,7 +12,7 @@
 
 ```
 
-In [[Conditionals#Switch Statement|Switch Statements]]
+In [[Golang/Conditionals#Switch Statement|Switch Statements]]
 ```go
 ///syntax
 	t, ok := i.(Type)

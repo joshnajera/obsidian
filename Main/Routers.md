@@ -1,7 +1,7 @@
 # Web Routers
 #middle-ware #web/development #development
 ## Use
-- Redirect web traffict to [[controllers]]
+- Redirect web traffict to [[Web Framework Controllers]]
 - Given:  a specific url path (e.g.  /api/public/ , etc)  
  	+ HTTP verb (e.g. `GET`, `POST`, `PUT`, `DELETE`, etc.)  
    -> Then call upon the appropriate controller function

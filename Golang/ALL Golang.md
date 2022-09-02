@@ -34,7 +34,7 @@ func main(){
 ## [[Loops|Loops]]
 - For Loops
 - While Loops
-## [[Conditionals|Conditionals]]
+## [[Golang/Conditionals|Conditionals]]
 - If Statements 
 - Switch Statements
 ## [[Defer|Defer]]
