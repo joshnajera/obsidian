@@ -17,7 +17,7 @@ func main(){
 - Fixed size indexable storage
 ## [[Slices|Slices]]
 - Dynamic indexable storage
-## [[Functions]]
+## [[Golang/Functions]]
 ## [[Maps|Maps]]
 - Maps key-value pairs
 ## [[Types|Types]]

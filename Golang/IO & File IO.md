@@ -1,5 +1,8 @@
 
-# Input
+# Console I/O
+
+## Input
+
 Method 1
 ```go
 import "fmt"
@@ -13,6 +16,7 @@ reader := bufio.NewReader(os.Stdin)
 input, err := reader.ReadString('\n') // Read until newline/enter
 ```
 
+## Output
 ```go
 import "fmt"
 fmt.Println("output")
