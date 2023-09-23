@@ -95,7 +95,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Vue.js/App.vue advanced example.md",
+                "file": "Vue.js/Main.js (vue setup).md",
                 "mode": "source",
                 "source": false
               }
@@ -176,7 +176,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Vue.js/App.vue advanced example.md",
+                "file": "Vue.js/Main.js (vue setup).md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -193,7 +193,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Vue.js/App.vue advanced example.md",
+                "file": "Vue.js/Main.js (vue setup).md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -216,7 +216,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Vue.js/App.vue advanced example.md"
+                "file": "Vue.js/Main.js (vue setup).md"
               }
             }
           },
@@ -248,9 +248,11 @@
   },
   "active": "84f55b89219ea213",
   "lastOpenFiles": [
+    "Vue.js/Router.md",
+    "Vue.js/Main.js (vue setup).md",
+    "Vue.js/App.vue advanced example.md",
     "Vue.js/App.vue file basic setup.md",
     "Vue.js/Routes.md",
-    "Vue.js/App.vue advanced example.md",
     "Vue.js/Basic Concept.md",
     "Vue.js/Views.md",
     "Vue.js/Untitled.md",
