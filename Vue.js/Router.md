@@ -36,6 +36,11 @@ const router = createRouter({
       name: "developer",  
       component: () => import("../views/devView.vue"),  
     },  
+	{
+		path: "/:pathmatch(.*)*",
+		name: "notFound",
+		component: NotFoundView,
+	}
   ],  
 });
 export default router;

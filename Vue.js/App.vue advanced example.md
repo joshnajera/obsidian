@@ -18,9 +18,7 @@ const props = defineProps({ // New method -- Gives more control
 });
 
 const route = useRoute();
-console.log("url param: " + route.params); //  Will be an object with the variables inside
-console.log("url param: " + route.params.id); // when it comes to our particular example in [[Router]]
-
+console.log("url param: " + route.params); //  Will be an object with the variables inside console.log("url param: " + route.params.id); // when it comes to our particular example in [[Router]],   note: Comes in as strings
 
 // Sending data outward
 const emit = defineEmits(["my-emit-function"]);
