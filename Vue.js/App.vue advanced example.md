@@ -1,6 +1,7 @@
 <script setup> // 'setup' allows us to use composition API instead of the old options API
 import customElement from 'customElement.vue';
 import { ref, reactive, defineEmits, defineProps } from 'vue';
+import { useRoute } from 'vue-router'; // Allows for dynamic variable from URL path
 
 // Data binding
 const hello_world = ref("Hi there"); // Can be any primitive, but not object?  Composition API
@@ -15,6 +16,10 @@ const props = defineProps({ // New method -- Gives more control
 		required: true,
 	},
 });
+
+const route = useRoute();
+console.log("url param: " + route.params); //  Will be an object with the variables inside
+console.log("url param: " + route.params.id); // when it comes to our particular example in [[Router]]
 
 
 // Sending data outward
