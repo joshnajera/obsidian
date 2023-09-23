@@ -1,7 +1,20 @@
 <script setup> // 'setup' allows us to use composition API instead of the old options API
 import customElement from 'customElement.vue';
 import { ref, reactive, defineEmits, defineProps } from 'vue';
-import { useRoute } from 'vue-router'; // Allows for dynamic variable from URL path
+import { useRoute, userRouter } from 'vue-router'; 
+// userRoute Allows for use of fetching route info, including query parameters and url parameters
+// useRouter Allows for modification of the current route, such as changing the route or appending query parameters
+
+const route = useRoute();
+console.log("url param: " + route.params); //  Will be an object with the variables inside 
+console.log("url param: " + route.params.id); // when it comes to our particular example in [[Router]],   note: Comes in as strings
+console.log( route.query ); // Get query params
+
+const router  = useRouter();
+// Push to query parameter
+router.push({query:{ someParameter: 1337 }});
+// Change the route
+router.push("/somepath/");
 
 // Data binding
 const hello_world = ref("Hi there"); // Can be any primitive, but not object?  Composition API
@@ -17,19 +30,17 @@ const props = defineProps({ // New method -- Gives more control
 	},
 });
 
-const route = useRoute();
-console.log("url param: " + route.params); //  Will be an object with the variables inside console.log("url param: " + route.params.id); // when it comes to our particular example in [[Router]],   note: Comes in as strings
 
 // Sending data outward
 const emit = defineEmits(["my-emit-function"]);
+emit('my-emit-function', extraData);  // Emit an event, sends the extra variables as 'params'
+// To see how to catch emitted events look in the <template> of this file
 
 function someFunc(){
 	//code
 	some_int.value += 1; //Note how we have to take the value of the variable
 	
 	var extraData = {};
-	emit('my-emit-function', extraData);  // Emit an event, sends the extra variables as 'params'
-	// To see how to catch emitted events look in the <template>
 }
 
 

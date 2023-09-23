@@ -40,7 +40,7 @@ const router = createRouter({
 		path: "/:pathmatch(.*)*",
 		name: "notFound",
 		component: NotFoundView,
-	}
+	},
   ],  
 });
 export default router;
