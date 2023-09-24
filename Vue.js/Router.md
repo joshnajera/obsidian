@@ -23,6 +23,7 @@ How to use routes in nav:
 // router/index.js:
 import { createRouter, createWebHistory } from 'vue-router';
 import { HomeView } from "../views/HomeView.vue";
+import { notFound } from "../views/notFound.vue";
 const router = createRouter({  
   history: createWebHistory(import.meta.env.BASE_URL),  
   routes: [  
@@ -34,7 +35,17 @@ const router = createRouter({
     {  
       path: "/developer/:id",  // Dynamic paths -- params via useRoute
       name: "developer",  
-      component: () => import("../views/devView.vue"),  
+		component: () => import("../views/devView.vue"),  
+		children: [ // Nested routes -- seems to need a nested <RouterView/> 
+			{
+				path: "profile",
+				component: () => import("..views/devProfile.vue")
+			},
+			{
+				path: "projects",
+				component: () => import("..views/devProjects.vue")
+			}
+		],
     },  
 	{
 		path: "/:pathmatch(.*)*",
