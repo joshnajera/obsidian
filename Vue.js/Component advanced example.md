@@ -50,80 +50,89 @@ const someAutoComputed = computed(() => {
 });
 const props_old_method = defineProps(["myFirstProp"]); // Old method -- Less control
 const props = defineProps({ // New method -- Gives more control
-	myFirstProp : {
+	myFirstProp : { // Note: We define with camelCase, but use kebab in template
 		type: Object,
 		required: true,
 	},
 });
 
 
+
 // Sending data outward
 const emit = defineEmits(["my-emit-function", "some-custom-emit"]);
-emit('my-emit-function', extraData);  // Emit an event, sends the extra variables as 'params'
-// To see how to catch emitted events look in the <template> of this file
 
 function someFunc(){
-	//code
 	some_int.value += 1; //Note how we have to take the value of the variable
-	
 	var extraData = {};
+	// Emit an event, 
+	emit('my-emit-function', extraData);  // sends the extra variables as 'params'
+	// To see how to catch emitted events look in the <template> of this file
 }
 </script>
 
 
 <template>
-<!-- HTML -->
-<slot>
-	This is some default / fall-back content in the slot
-	<!-- Allows you to insert data from non-self-closed custom tags -->
-</slot>
-<slot name="someSecondarySlot">
-	<!-- Similar, but allows you to name additional ones -->
-</slot>
-<!-- Named Slot Implementation -->
-<someSlottedThing>
-	slotted content
-	<template v-slot:mySlotName1>
-		slot content
-	</template>
-	<!-- OR -->:
-	<template #mySlotName1>
-		slot content
-	</template>
-</someSlottedThing>
-
-<h1>{{ hello_world }}</h1> <!-- Moustache syntax -->
-<button v-on:click="someFunc()">Click me full syntax</button>
-<button @click="someFunc()">Click me shorthand</button>
-<div v-if="some_bool">
-<!-- This will conditionally render if some_bool evaluates to true -->
-</div>
-<div v-else-if="some_other_bool">
-</di>
-<div v-else>
-</div>
-<div v-show="some_bool">
-<!-- This will conditionally display if some_bool evaluates to true -- works via display -->
-</div>
-<textarea v-model="hello_world"></textarea> <!-- 2 way binding onto a value -->
-<ul>
-
-<!-- Catch Emitted Event -->
-<someCustomElement @custom-emit-function="custom_emit_handler" />
-<!-- Inline Emit -->
-<button @click="$emit('some-custom-emit')">
-
-<!-- For loop -->
-<customElement v-for="item in items">
-<customElement v-for="(item, index) in items">
-<!-- Another way to do for loop -->
-<div>
-	<div v-for="item in items">
-		<h1>{{item.title}}</h1>
-		<p>{{item.text}}</p>
+	<!-- HTML -->
+	<!-- Note kebab case in following prop name--> 
+	<someTemplateWithProp :my-first-prop="{someKey: 'someValue'}"> 
+		<!-- Note we can dynamically bind with ':' -->
+		<!-- This allows us to pass data, like objects -->
+		<!-- slot data for someTemplateWithProp -->
+	</someTemplateWithProp>
+	<slot>
+		This is some default / fall-back content in the slot
+		<!-- Allows you to insert data from non-self-closed custom tags -->
+	</slot>
+	<!-- Named Slot template definition -->
+	<slot name="someSecondarySlot">
+		<!-- Similar, but allows you to name additional ones -->
+	</slot>
+	<!-- Named Slot implementation -->
+	<someSlottedThing>
+		slotted content
+		<template v-slot:mySlotName1>
+			slot content
+		</template>
+		<!-- OR -->:
+		<template #mySlotName1>
+			slot content
+		</template>
+	</someSlottedThing>
+	
+	<h1>{{ hello_world }}</h1> <!-- Moustache syntax -->
+	<button v-on:click="someFunc()">Click me full syntax</button>
+	<button @click="someFunc()">Click me shorthand</button>
+	<div v-if="some_bool">
+		<!-- This will conditionally render if some_bool evaluates to true -->
 	</div>
-</div>
-</ul>
+	<div v-else-if="some_other_bool">
+	</di>
+	<div v-else>
+	</div>
+	<div v-show="some_bool">
+		<!-- This will conditionally display if some_bool evaluates to true -->
+	</div>
+	<textarea v-model="hello_world">
+		<!-- 2 way binding onto a value -->
+	</textarea> 
+	
+	<!-- Catch Emitted Event -->
+	<someCustomElement @custom-emit-function="custom_emit_handler" />
+	<!-- Inline Emit -->
+	<button @click="$emit('some-custom-emit')">
+	
+	<!-- For loop -->
+	<div>
+		<customElement v-for="item in items">
+		<customElement v-for="(item, index) in items">
+	</div>
+	<!-- Another way to do for loop -->
+	<div>
+		<div v-for="item in items">
+			<h1>{{item.title}}</h1>
+			<p>{{item.text}}</p>
+		</div>
+	</div>
 </template>
 
 

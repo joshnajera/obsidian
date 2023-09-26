@@ -31,10 +31,12 @@ const router = createRouter({
       path: "/",  
       name: "home",  
       component: HomeView,  // This comes from views folder
+		// Note: This may be the non-lazy-load style
     },  
     {  
       path: "/developer/:id",  // Dynamic paths -- params via useRoute
       name: "developer",  
+			// Lazy load syntax?
 		component: () => import("../views/devView.vue"),  
 		children: [ // Nested routes -- seems to need a nested <RouterView/> 
 			{

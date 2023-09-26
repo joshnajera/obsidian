@@ -8,88 +8,6 @@
         "type": "tabs",
         "children": [
           {
-            "id": "6eb16da792911dd8",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "SQL/Aggregate.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "dc0ec38b00e5cec2",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Golang/Arrays.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "d26539a8fe7443b7",
-            "type": "leaf",
-            "state": {
-              "type": "release-notes",
-              "state": {
-                "currentVersion": "1.1.8"
-              }
-            }
-          },
-          {
-            "id": "bca1018811aa6a08",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Tensorflow/Tensor.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "5a1f395e339acfb5",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Tensorflow/Learning Algorithms.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "404921f5a6edd128",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "OpenGSL (godot shaders)/Dissolve Shader (Recipe).md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "281d49ef269f5f7b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "OpenGSL (godot shaders)/Uniforms & Exports.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "84f55b89219ea213",
             "type": "leaf",
             "state": {
@@ -101,8 +19,7 @@
               }
             }
           }
-        ],
-        "currentTab": 7
+        ]
       }
     ],
     "direction": "vertical"
@@ -249,11 +166,18 @@
   "active": "84f55b89219ea213",
   "lastOpenFiles": [
     "Vue.js/Basic Concept.md",
+    "Ionic , Capacitor (VUEJS)/Extra components Page.md",
+    "Ionic , Capacitor (VUEJS)/Grid.md",
     "Vue.js/Component advanced example.md",
-    "Vue.js/Component basic example.md",
+    "Ionic , Capacitor (VUEJS)/Links.md",
     "Vue.js/Router.md",
-    "Vue.js/Views.md",
     "Vue.js/Main.js (vue setup).md",
+    "Vue.js/Component basic example.md",
+    "React/Component.md",
+    "Ionic , Capacitor (VUEJS)/Theming.md",
+    "Ionic , Capacitor (VUEJS)/Basic Page.md",
+    "Ionic , Capacitor (VUEJS)",
+    "Vue.js/Views.md",
     "Vue.js/Routes.md",
     "Vue.js/Untitled.md",
     "Vue.js",
