@@ -1,28 +1,9 @@
 
 How to use routes in nav:
-<script>
-	import { RouterLink, RouterView } from 'vue-router';
-</script>
-<template>
-	<nav>
-		<!-- Links to route us, these correlate to router index.js -->
-		<RouterLink active-class='active' to='/'>Home</RouterLink> 
-		<RouterLink active-class='active' to='/about'>About</RouterLink>
-	</nav>
-
-<RouterView/> <!--Tells us where to render the output -->
-</template>
-<style>
-</style>
-
-
-
-
-
-<script>
+```javascript
 // router/index.js:
 import { createRouter, createWebHistory } from 'vue-router';
-import { HomeView } from "../views/HomeView.vue";
+import { HomeView } from "../views/HomeView.vue"; // Not lazy-loaded
 import { notFound } from "../views/notFound.vue";
 const router = createRouter({  
   history: createWebHistory(import.meta.env.BASE_URL),  
@@ -31,7 +12,6 @@ const router = createRouter({
       path: "/",  
       name: "home",  
       component: HomeView,  // This comes from views folder
-		// Note: This may be the non-lazy-load style
     },  
     {  
       path: "/developer/:id",  // Dynamic paths -- params via useRoute
@@ -56,9 +36,24 @@ const router = createRouter({
 	},
   ],  
 });
-export default router;
+export default router; // Not 100% sure if this line is necessary
+```
+
+
+
+
+
+```html
+<script>
+	import { RouterLink, RouterView } from 'vue-router';
 </script>
+<template>
+	<nav>
+		<!-- Links to route us, these correlate to router index.js -->
+		<RouterLink active-class='active' to='/'>Home</RouterLink> 
+		<RouterLink active-class='active' to='/about'>About</RouterLink>
+	</nav>
 
-
-
-
+<RouterView/> <!--Tells us where to render the output -->
+</template>
+```

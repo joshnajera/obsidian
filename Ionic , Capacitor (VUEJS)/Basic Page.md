@@ -1,5 +1,4 @@
 ```html
-
 <script setup>
 	// 5 Essential components, which you need on every new "page" you want
 	// Not necessarily every component

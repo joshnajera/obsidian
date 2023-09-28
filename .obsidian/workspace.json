@@ -13,7 +13,19 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Vue.js/Component advanced example.md",
+                "file": "Vue.js/Advanced Concept -- Codetta Stone.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "2afe81b0656a9c29",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Vue.js/Advanced Concept -- Codetta Stone.md",
                 "mode": "source",
                 "source": false
               }
@@ -93,7 +105,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Vue.js/Component advanced example.md",
+                "file": "Vue.js/Advanced Concept -- Codetta Stone.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +122,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Vue.js/Component advanced example.md",
+                "file": "Vue.js/Advanced Concept -- Codetta Stone.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +145,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Vue.js/Component advanced example.md"
+                "file": "Vue.js/Advanced Concept -- Codetta Stone.md"
               }
             }
           },
@@ -165,31 +177,35 @@
   },
   "active": "84f55b89219ea213",
   "lastOpenFiles": [
+    "Vue.js/Attributes and Attribute fallthrough.md",
     "Vue.js/Basic Concept.md",
-    "Ionic , Capacitor (VUEJS)/Extra components Page.md",
-    "Ionic , Capacitor (VUEJS)/Grid.md",
-    "Vue.js/Component advanced example.md",
-    "Ionic , Capacitor (VUEJS)/Links.md",
-    "Vue.js/Router.md",
+    "Vue.js/Props.md",
     "Vue.js/Main.js (vue setup).md",
+    "Vue.js/Router.md",
     "Vue.js/Component basic example.md",
+    "Vue.js/Helpful Links.md",
+    "Vue.js/lifecycle hooks.webp",
+    "Vue.js/ref() vs reactive().md",
+    "Vue.js/Views.md",
+    "Vue.js/Advanced Concept -- Codetta Stone.md",
+    "Ionic , Capacitor (VUEJS)/Navigation.md",
+    "Ionic , Capacitor (VUEJS)/Advanced components Page.md",
+    "Ionic , Capacitor (VUEJS)/App.vue.md",
+    "Ionic , Capacitor (VUEJS)/Basic Page.md",
+    "Ionic , Capacitor (VUEJS)/Additional Lifecycle events.md",
+    "Ionic , Capacitor (VUEJS)/Router Explanation.md",
+    "Ionic , Capacitor (VUEJS)/Special Classes.md",
+    "Vue.js/Life Cycle Hooks.md",
+    "IMAGE ASSETS",
+    "Ionic , Capacitor (VUEJS)/Helpful Links.md",
+    "Ionic , Capacitor (VUEJS)/Grid.md",
     "React/Component.md",
     "Ionic , Capacitor (VUEJS)/Theming.md",
-    "Ionic , Capacitor (VUEJS)/Basic Page.md",
     "Ionic , Capacitor (VUEJS)",
-    "Vue.js/Views.md",
     "Vue.js/Routes.md",
-    "Vue.js/Untitled.md",
     "Vue.js",
     "OpenGSL (godot shaders)/Functions.md",
     "OpenGSL (godot shaders)/Inputs.md",
-    "OpenGSL (godot shaders)/Uniforms & Exports.md",
-    "OpenGSL (godot shaders)/Outputs.md",
-    "OpenGSL (godot shaders)/Shader Types.md",
-    "OpenGSL (godot shaders)/Introduction.md",
-    "OpenGSL (godot shaders)/Dissolve Shader (Recipe).md",
-    "OpenGSL (godot shaders)/Wave Shaders (recipes).md",
-    "OpenGSL (godot shaders)/Usage.md",
-    "Pasted image 20220902081105.png"
+    "IMAGE ASSETS/Pasted image 20220902081105.png"
   ]
 }

@@ -13,14 +13,16 @@ var the_storage = localStorage.getItem("someVariableName");
 if (the_storage){
 	the_storage = JSON.parse(the_storage);
 }
-// Delete
+// Delete storage variable
 localStorage.remove("someVariableName");
-// Clear
+// Clear storage variable
 localStorage.clear();
 
 const route = useRoute();
-console.log("url param: " + route.params); //  Will be an object with the variables inside 
-console.log("url param: " + route.params.id); // when it comes to our particular example in [[Router]],   note: Comes in as strings
+console.log("url param: " + route.params); 
+//  Will be an object with the variables inside 
+console.log("url param: " + route.params.id); 
+// when it comes to our particular example in [[Router]],   note: Comes in as strings. you will need to cast it
 console.log( route.query ); // Get query params
 
 const router  = useRouter();
@@ -32,12 +34,12 @@ router.push("/somepath/");
 router.back();
 
 // Data binding
-const hello_world = ref("Hi there"); // Can be any primitive, but not object?  Composition API
+const hello_world = ref("Hi there");  // ref() can be primitive or nonprimitive
 const some_bool = ref(false);
 const some_int = ref(0);
-const hello_world2 = reactive(); // Must be an object.  Composition API
+const hello_world2 = reactive({}); // Must be an object
 const items = ref([]);
-// Watch for changes
+// Watch for changes -- typically for ref() with objects/arrays?:
 watch(items, (newValue, oldValue) =>{
 	// Code to execute when items changes
 },{
@@ -54,6 +56,8 @@ const props = defineProps({ // New method -- Gives more control
 		type: Object,
 		required: true,
 	},
+	mySecondProp : String,
+	modelValue : String, // Note: v-model gets automatically bound to modelValue
 });
 
 
@@ -73,6 +77,8 @@ function someFunc(){
 
 <template>
 	<!-- HTML -->
+	{{moustacheSyntaxVariable}}
+	{{$attrs}} <!-- Anything not defined as a prop or event will be available -->
 	<!-- Note kebab case in following prop name--> 
 	<someTemplateWithProp :my-first-prop="{someKey: 'someValue'}"> 
 		<!-- Note we can dynamically bind with ':' -->
@@ -102,9 +108,11 @@ function someFunc(){
 	<h1>{{ hello_world }}</h1> <!-- Moustache syntax -->
 	<button v-on:click="someFunc()">Click me full syntax</button>
 	<button @click="someFunc()">Click me shorthand</button>
-	<div v-if="some_bool">
-		<!-- This will conditionally render if some_bool evaluates to true -->
-	</div>
+	<keep-alive> <!-- cache the data, if we navigate away we save it -->
+		<div v-if="some_bool">
+			<!-- This will conditionally render if some_bool evaluates to true -->
+		</div>
+	</keep-alive>
 	<div v-else-if="some_other_bool">
 	</di>
 	<div v-else>
@@ -112,14 +120,19 @@ function someFunc(){
 	<div v-show="some_bool">
 		<!-- This will conditionally display if some_bool evaluates to true -->
 	</div>
-	<textarea v-model="hello_world">
-		<!-- 2 way binding onto a value -->
-	</textarea> 
+
+	<!-- 2 way binding onto a value -->
+	<textarea v-model="hello_world"> </textarea> 
+	<!-- v-model's can be named -->
+	<input type='text' v-model:somePropName = "some Value" />
+
 	
 	<!-- Catch Emitted Event -->
 	<someCustomElement @custom-emit-function="custom_emit_handler" />
-	<!-- Inline Emit -->
-	<button @click="$emit('some-custom-emit')">
+	<!-- Inline Emit:  Notice the $ on emit & event, these are nice shorthands -->
+	<button @click="$emit('some-custom-emit', $event.target.value)">
+	<!-- 2-way Binding to parent variable -->
+	<input :value="modelValue" @input="$emit('update:modelValue', $event.target.value)" />
 	
 	<!-- For loop -->
 	<div>

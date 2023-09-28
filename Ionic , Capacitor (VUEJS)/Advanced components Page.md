@@ -3,7 +3,8 @@
 <script setup>
 	import { IonPage, IonHeader, IonTitle, IonContent, IonToolbar } from '@ionic/vue'; 	
 
-	import {IonList, IonItem, IonBackButton, IonButtons} from '@ionic/vue';
+	import {IonList, IonItem, IonBackButton, IonButton, IonButtons} from '@ionic/vue';
+	 import {add} from 'ionicons/icons'; // Access icon library
 </script>
 
 <template>
@@ -14,13 +15,16 @@
 					<ion-back-button default-href="/someDefaultPage">
 					<!-- set default, bc on refresh we lose back data -->
 					</ion-back-button>
+					<ion-button>
+						<ion-icon icon={add} slot="end"/>
+					<ion-button>
 				</ion-buttons>
 				<ion-title>
 					Some Title
 				</ion-title>
 			</ion-toolbar>
 		</ion-header>
-		<ion-content>
+		<ion-content scrollY={false}> <!-- disable scrolling on mobile -->
 			<!-- Lists -->
 			<ion-list>
 				<ion-item router-link='/someLink'> 
