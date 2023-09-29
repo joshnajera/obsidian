@@ -23,7 +23,7 @@ func main(){
 ## [[Types|Types]]
 ## [[Variables |Variables]]
 - When declaring a variable, if not defined, defaults to the zero value of that type
-## [[Operators|Operators]]
+## [[Golang/Operators|Operators]]
 - Fairly standard operators.
 - 2 golang specific operators
 ## [[Pointers|Pointers]]

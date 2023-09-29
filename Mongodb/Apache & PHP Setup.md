@@ -1,0 +1,13 @@
+Install
+- apache2
+- PHP (also, sudo apt-get install libapache2-mod-php)
+- PECL via the following `sudo apt-get install php-pear`
+- Extra dependency for extension `sudo apt install php-dev`
+- mongodb
+- sudo apt-get install php7.4-mongodb (change version accordingly)
+- mongodb extension `sudo pecl install mongodb`
+- Enable the MongoDB Extension:
+	- `sudo vim /etc/php/<PHP_VERSION>/apache2/php.ini`
+	- add:
+		- extension=mongodb.so
+- `sudo systemctl restart apache2`

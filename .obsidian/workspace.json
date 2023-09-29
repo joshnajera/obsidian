@@ -13,25 +13,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Vue.js/Advanced Concept -- Codetta Stone.md",
+                "file": "Mongodb/Apache & PHP Setup.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "2afe81b0656a9c29",
+            "id": "e9d2b96e3d00aec3",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Vue.js/Advanced Concept -- Codetta Stone.md",
+                "file": "Golang/ALL Golang.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -105,7 +106,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Vue.js/Advanced Concept -- Codetta Stone.md",
+                "file": "Golang/ALL Golang.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -122,7 +123,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Vue.js/Advanced Concept -- Codetta Stone.md",
+                "file": "Golang/ALL Golang.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -145,7 +146,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Vue.js/Advanced Concept -- Codetta Stone.md"
+                "file": "Golang/ALL Golang.md"
               }
             }
           },
@@ -175,8 +176,15 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "84f55b89219ea213",
+  "active": "e9d2b96e3d00aec3",
   "lastOpenFiles": [
+    "Mongodb/Syntax (BASE).md",
+    "Vue.js/Advanced Concept -- Codetta Stone.md",
+    "Mongodb/Syntax (PHP).md",
+    "Mongodb/Operators (PHP).md",
+    "Mongodb/Apache & PHP Setup.md",
+    "Mongodb/Untitled",
+    "Mongodb",
     "Vue.js/Attributes and Attribute fallthrough.md",
     "Vue.js/Basic Concept.md",
     "Vue.js/Props.md",
@@ -187,7 +195,6 @@
     "Vue.js/lifecycle hooks.webp",
     "Vue.js/ref() vs reactive().md",
     "Vue.js/Views.md",
-    "Vue.js/Advanced Concept -- Codetta Stone.md",
     "Ionic , Capacitor (VUEJS)/Navigation.md",
     "Ionic , Capacitor (VUEJS)/Advanced components Page.md",
     "Ionic , Capacitor (VUEJS)/App.vue.md",
@@ -202,10 +209,7 @@
     "React/Component.md",
     "Ionic , Capacitor (VUEJS)/Theming.md",
     "Ionic , Capacitor (VUEJS)",
-    "Vue.js/Routes.md",
     "Vue.js",
-    "OpenGSL (godot shaders)/Functions.md",
-    "OpenGSL (godot shaders)/Inputs.md",
     "IMAGE ASSETS/Pasted image 20220902081105.png"
   ]
 }

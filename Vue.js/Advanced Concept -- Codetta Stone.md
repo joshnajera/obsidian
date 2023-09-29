@@ -108,11 +108,11 @@ function someFunc(){
 	<h1>{{ hello_world }}</h1> <!-- Moustache syntax -->
 	<button v-on:click="someFunc()">Click me full syntax</button>
 	<button @click="someFunc()">Click me shorthand</button>
-	<keep-alive> <!-- cache the data, if we navigate away we save it -->
+	<KeepAlive> <!-- cache the data, if we navigate away we save it -->
 		<div v-if="some_bool">
 			<!-- This will conditionally render if some_bool evaluates to true -->
 		</div>
-	</keep-alive>
+	</KeepAlive>
 	<div v-else-if="some_other_bool">
 	</di>
 	<div v-else>
