@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Golang/ALL Golang.md",
+                "file": "Vue.js/Composables.md",
                 "mode": "source",
                 "source": false
               }
@@ -106,7 +106,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Golang/ALL Golang.md",
+                "file": "Vue.js/Composables.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -123,7 +123,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Golang/ALL Golang.md",
+                "file": "Vue.js/Composables.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -146,7 +146,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Golang/ALL Golang.md"
+                "file": "Vue.js/Composables.md"
               }
             }
           },
@@ -178,23 +178,27 @@
   },
   "active": "e9d2b96e3d00aec3",
   "lastOpenFiles": [
-    "Mongodb/Syntax (BASE).md",
-    "Vue.js/Advanced Concept -- Codetta Stone.md",
-    "Mongodb/Syntax (PHP).md",
-    "Mongodb/Operators (PHP).md",
+    "storefront websites.md",
+    "Vue.js/Composables.md",
     "Mongodb/Apache & PHP Setup.md",
+    "Vue.js/Views.md",
+    "Vue.js/Router.md",
+    "Vue.js/LocalStorage (javascript concept).md",
+    "Vue.js/lifecycle hooks.webp",
+    "Vue.js/Advanced Concept -- Codetta Stone.md",
+    "Mongodb/Operators (PHP).md",
+    "Mongodb/Syntax (BASE).md",
+    "Golang/ALL Golang.md",
+    "Mongodb/Syntax (PHP).md",
     "Mongodb/Untitled",
     "Mongodb",
     "Vue.js/Attributes and Attribute fallthrough.md",
     "Vue.js/Basic Concept.md",
     "Vue.js/Props.md",
     "Vue.js/Main.js (vue setup).md",
-    "Vue.js/Router.md",
     "Vue.js/Component basic example.md",
     "Vue.js/Helpful Links.md",
-    "Vue.js/lifecycle hooks.webp",
     "Vue.js/ref() vs reactive().md",
-    "Vue.js/Views.md",
     "Ionic , Capacitor (VUEJS)/Navigation.md",
     "Ionic , Capacitor (VUEJS)/Advanced components Page.md",
     "Ionic , Capacitor (VUEJS)/App.vue.md",
@@ -204,10 +208,6 @@
     "Ionic , Capacitor (VUEJS)/Special Classes.md",
     "Vue.js/Life Cycle Hooks.md",
     "IMAGE ASSETS",
-    "Ionic , Capacitor (VUEJS)/Helpful Links.md",
-    "Ionic , Capacitor (VUEJS)/Grid.md",
-    "React/Component.md",
-    "Ionic , Capacitor (VUEJS)/Theming.md",
     "Ionic , Capacitor (VUEJS)",
     "Vue.js",
     "IMAGE ASSETS/Pasted image 20220902081105.png"

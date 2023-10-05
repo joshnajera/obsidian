@@ -41,7 +41,20 @@ db.users.insertMany([
 woops we can't do this, we need to do something extra:
 `db.CollectionName.updateOne({someQuery:"value"}, {$set: {someReplacement:"value"}})`
 
-Update Many 
+Add upsert option
+```mongodb
+db.engineers.update({ name: 'Foo Baz' },
+  { $set:
+    {
+      age: 26,
+      gender: 'Other'
+    }
+  },
+  { upsert: true }
+)
+```
+
+Update Many & Reset value
 `db.collecionName.updateMany({name:"Josh"}, {$unset: {name:""}})`
 
 # Delete
