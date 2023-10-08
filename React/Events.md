@@ -1,6 +1,8 @@
 ## Basics
-Event names are always camelCased
-Can be added directly into jsx
+- Event names are always camelCased
+- Can be added directly into jsx with `on` prefix, examples:
+	- onClick, onTouch, onChange
+ - Pass the function reference
 
 ```js
 import React from "react"

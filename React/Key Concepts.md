@@ -1,0 +1,13 @@
+ - Use curly brackets `{}` to compute an expression in JSX/TSX  
+- Modern jsx/tsx uses function based components
+- We [[Mounting the App |Mount]] the app to a root node, often times, `#root`
+- Everything is made a [[Component]]
+- We can only return one root element per component.
+	- Use fragments `<> </>` to wrap multiple components
+- It seems everything is 1-way data-binding. To achieve 2-way, you must use event listeners.
+- You can pass data to children components via [[React/Props|Props]]
+- `class` is a reserved word in jsx/tsx , so we have to use `className` to set the name of a class in react
+- We have no native loops for elements, but we can use mapping. [[Looping Components |See here]]
+- We have no native conditional display, but we can use the conditional shorthand [[Conditional rendering|Seen here]].
+- We can bind to events with html properties via the the `on` prefix followed by event keyword. i.e. onClick, onTouch, onChange
+- 

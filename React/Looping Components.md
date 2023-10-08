@@ -1,9 +1,10 @@
 ## Array rendering
 React renders arrays naturally, this can be used with JSX elements
 
+there is no native looping method in react like there is in vuejs. Therefore we must use someArrayName.map(()={})
 
 Example
-```js
+```jsx
 export default function App() {
     const data = [{coverImg:"...",...other fields...}, ...{}] // Where data is an array of objects
     const cards = data.map(item => {
@@ -21,12 +22,11 @@ export default function App() {
     })        
     
     return (
-        <div>
-            <Navbar />
+        <div className="card-list">
             {cards}
         </div>
     )
 }
 ```
 
-Note: unique key value may be required when using map, may possibly throw error.
+Note: unique key value may be required when using map, may possibly throw error / warning.

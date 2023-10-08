@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Vue.js/Composables.md",
+                "file": "React/Hooks.md",
                 "mode": "source",
                 "source": false
               }
@@ -90,7 +90,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 218.5
   },
   "right": {
     "id": "04bbc0fa29b219c6",
@@ -106,7 +106,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Vue.js/Composables.md",
+                "file": "React/Hooks.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -123,7 +123,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Vue.js/Composables.md",
+                "file": "React/Hooks.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -146,7 +146,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Vue.js/Composables.md"
+                "file": "React/Hooks.md"
               }
             }
           },
@@ -163,7 +163,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -178,35 +179,35 @@
   },
   "active": "e9d2b96e3d00aec3",
   "lastOpenFiles": [
-    "storefront websites.md",
-    "Vue.js/Composables.md",
+    "React/Lifecycle.md",
+    "React/Hooks.md",
+    "React/Props.md",
+    "React/Component.md",
+    "React/Fragments.md",
+    "React/Getting Started.md",
+    "React/Key Concepts.md",
+    "React/Looping Components.md",
     "Mongodb/Apache & PHP Setup.md",
+    "React/Data Binding.md",
+    "React/Events.md",
+    "React/Conditional rendering.md",
+    "React/Adding CSS.md",
+    "React/Mounting the App.md",
+    "React/React DOM.md",
+    "React/Relative Paths.md",
+    "Mongodb/Lookup AKA Left-join.md",
+    "Vue.js/Advanced Concept -- Codetta Stone.md",
+    "Vue.js/Composables.md",
+    "storefront websites.md",
     "Vue.js/Views.md",
     "Vue.js/Router.md",
     "Vue.js/LocalStorage (javascript concept).md",
     "Vue.js/lifecycle hooks.webp",
-    "Vue.js/Advanced Concept -- Codetta Stone.md",
     "Mongodb/Operators (PHP).md",
     "Mongodb/Syntax (BASE).md",
     "Golang/ALL Golang.md",
-    "Mongodb/Syntax (PHP).md",
     "Mongodb/Untitled",
     "Mongodb",
-    "Vue.js/Attributes and Attribute fallthrough.md",
-    "Vue.js/Basic Concept.md",
-    "Vue.js/Props.md",
-    "Vue.js/Main.js (vue setup).md",
-    "Vue.js/Component basic example.md",
-    "Vue.js/Helpful Links.md",
-    "Vue.js/ref() vs reactive().md",
-    "Ionic , Capacitor (VUEJS)/Navigation.md",
-    "Ionic , Capacitor (VUEJS)/Advanced components Page.md",
-    "Ionic , Capacitor (VUEJS)/App.vue.md",
-    "Ionic , Capacitor (VUEJS)/Basic Page.md",
-    "Ionic , Capacitor (VUEJS)/Additional Lifecycle events.md",
-    "Ionic , Capacitor (VUEJS)/Router Explanation.md",
-    "Ionic , Capacitor (VUEJS)/Special Classes.md",
-    "Vue.js/Life Cycle Hooks.md",
     "IMAGE ASSETS",
     "Ionic , Capacitor (VUEJS)",
     "Vue.js",
