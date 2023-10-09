@@ -22,6 +22,8 @@ import {useState} from 'react';
 let [valueExample, setValueExample] = useState('Default');
 // Warning the following would infiinite loop
 setValueExample('newValue');
+// OR
+setValueExample((previousState) => previousState + 1)
 ```
 
 # useEffect()
@@ -137,3 +139,150 @@ return(
 
 # useMemo()
 - Used for optimization
+- Implements 'memoization' aka remembering the last result
+- Recomputes on dependency change
+- caches result
+- Kind of similar to useEffect, but specifically designed for recalculating a value. Not performing a side-effect
+
+```jsx
+function App(props){
+
+const [count, setCount] = useState(50);
+
+// The
+const expensiveCount = useMemo(() => {
+	return count ** 2;
+}, [count]);
+
+}
+```
+
+
+
+# useCallback()
+- Like memoization -- but for a function
+- Re-renders & caches when dependency list is changed
+- Used when many children depend on the same output of the function
+	- Normally, the function will get re-rendered for each component it exists in
+ - With memoization we prevent this rerender and it uses the same cached function
+
+```jsx
+function App(){
+
+const showCount = useCallback(() => {
+	alert(`Count: ${count}`);
+}, [count]);
+
+return(
+	<SomeChild handler={showCount} />
+	<SomeChild2 handler={showCount} />
+);
+}
+```
+
+
+
+
+# useImperitiveHandle()
+- Used to define functionality which the parent component can call upon
+- Can only be used within a `forwardRef`
+- 
+```jsx
+// ParentComponent.js
+import React, { useRef } from 'react';
+import ChildComponent from './ChildComponent';
+
+const ParentComponent = () => {
+  const childRef = useRef(null); // Must get a reference to the child
+
+  const handleIncrement = () => {
+    // Call the increment function exposed by the child
+    childRef.current.increment(); // Using the ref and exposed function, we can call it.
+  };
+
+  return (
+    <div>
+      <button onClick={handleIncrement}>Increment Child Count</button>
+      <ChildComponent ref={childRef} />
+    </div>
+  );
+};
+
+export default ParentComponent;
+```
+
+```jsx
+// ChildComponent.js
+import React, { useRef, useImperativeHandle, useState } from 'react';
+
+const ChildComponent = React.forwardRef((props, ref) => {
+  const [count, setCount] = useState(0);
+
+  const increment = () => {
+    setCount(count + 1);
+  };
+
+  // Expose the increment function to the parent through the ref
+  useImperativeHandle(ref, () => ({
+    increment
+  }));
+
+  return (
+    <div>
+      <p>Count: {count}</p>
+      <!--<button onClick={increment}>Increment</button>-->
+    </div>
+  );
+});
+
+export default ChildComponent;
+```
+
+
+
+
+# useLayoutEffect
+- Used like useEffect
+- Callback will be run after rendering the component, but before the changes have been made to the screen.
+```jsx
+function App(){
+const myBtn = useRef(null);
+
+useLayoutEffect(() => {
+const rect = myBtn.current.getBoundingClientRect();
+console.log(box.height);
+})
+
+return (
+	<button ref={myBtn}></button>
+)
+}
+```
+
+
+# useDebugValue()
+- Mostly helpful when creating your own hooks
+- Allows you to create your own labels in React Dev Tools
+```jsx
+
+function useDisplayName(){
+	const [displayName, setDisplayName ]  = useState("");
+
+	useEffect(() => {
+		const data = "abcd"; // Normally would be some api call or something
+		setDisplayHName(data)
+	}, []);
+
+	useDebugValue(displayName ?? 'loading...'); // Will show in react dev tools
+	
+	return displayName;
+}
+
+
+function App(){
+const displayName = useDisplayName();
+
+
+return <button>{displayName}</button>
+}
+```
