@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "React/Hooks.md",
+                "file": "React/Next JS/API setup.md",
                 "mode": "source",
                 "source": false
               }
@@ -106,7 +106,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "React/Hooks.md",
+                "file": "React/Next JS/API setup.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -123,7 +123,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "React/Hooks.md",
+                "file": "React/Next JS/API setup.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -146,7 +146,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "React/Hooks.md"
+                "file": "React/Next JS/API setup.md"
               }
             }
           },
@@ -177,35 +177,36 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "e9d2b96e3d00aec3",
+  "active": "5f899c0343ee91fb",
   "lastOpenFiles": [
-    "React/Lifecycle.md",
+    "React/Next JS/SEO & MetaData.md",
+    "React/Next JS/API setup.md",
+    "React/Next JS/Fetching Data.md",
+    "React/Next JS/Error Handling.md",
+    "React/Next JS/Loader AKA Suspense.md",
+    "React/Next JS/Layouts.md",
+    "React/Next JS/Router.md",
+    "React/Router.md",
+    "React/Next JS/Components (Server side & Client side).md",
+    "React/Next JS/Client Side Components.md",
+    "React/Next JS/Getting Started.md",
+    "React/Next JS/Rendering.md",
+    "Mongodb/Apache & PHP Setup.md",
+    "React/Next JS/Key Concepts.md",
+    "React/Adding CSS.md",
+    "React/Next JS",
     "React/Hooks.md",
+    "React/Lifecycle.md",
     "React/Props.md",
     "React/Component.md",
     "React/Fragments.md",
     "React/Getting Started.md",
     "React/Key Concepts.md",
     "React/Looping Components.md",
-    "Mongodb/Apache & PHP Setup.md",
     "React/Data Binding.md",
     "React/Events.md",
     "React/Conditional rendering.md",
-    "React/Adding CSS.md",
-    "React/Mounting the App.md",
-    "React/React DOM.md",
-    "React/Relative Paths.md",
-    "Mongodb/Lookup AKA Left-join.md",
-    "Vue.js/Advanced Concept -- Codetta Stone.md",
-    "Vue.js/Composables.md",
-    "storefront websites.md",
-    "Vue.js/Views.md",
-    "Vue.js/Router.md",
-    "Vue.js/LocalStorage (javascript concept).md",
     "Vue.js/lifecycle hooks.webp",
-    "Mongodb/Operators (PHP).md",
-    "Mongodb/Syntax (BASE).md",
-    "Golang/ALL Golang.md",
     "Mongodb/Untitled",
     "Mongodb",
     "IMAGE ASSETS",

@@ -23,4 +23,4 @@ app.mount('#app') // Attach to HTML element
 ```
 
 router/index.js
-[[Router]]
+[[Vue.js/Router]]
